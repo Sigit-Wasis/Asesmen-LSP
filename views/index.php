@@ -181,13 +181,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="<?= $base_url ?>/assets/js/form-validation.js"></script>
     <script>
-        $('#jenis_esteh').on('input', function() {
-            calculateTotal();
-        });
+        // $('#jenis_esteh').on('input', function() {
+        //     calculateTotal();
+        // });
 
-        $('#jumlah_pesanan').on('input', function() {
-            calculateTotal();
-        });
+        // $('#jumlah_pesanan').on('input', function() {
+        //     calculateTotal();
+        // });
 
         // Kalkulasi untuk total tagihan keseluruhan
         function calculateTotal() {
