@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "nama_pelanggan": "sigit",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "bndung",
+        "jenis_esteh": "Es Teh Tawar",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "4",
+        "harga_total": "8000.00"
+    },
+    {
+        "id": "2",
+        "nama_pelanggan": "sigit",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "bndung",
+        "jenis_esteh": "Es Teh Tawar",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "4",
+        "harga_total": "8000.00"
+    },
+    {
+        "id": "3",
+        "nama_pelanggan": "Rudi",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "lampung",
+        "jenis_esteh": "Es Teh Jumbo",
+        "instruksi_tambahan": "makek plastik",
+        "jumlah_pesanan": "5",
+        "harga_total": "20000.00"
+    },
+    {
+        "id": "4",
+        "nama_pelanggan": "Sigit Wasis Subekti",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "Bandar Lampung",
+        "jenis_esteh": "Es Lemon Tea",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "5",
+        "harga_total": "25000.00"
+    },
+    {
+        "id": "5",
+        "nama_pelanggan": "Sindi",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "Tanjung Karang",
+        "jenis_esteh": "Es Lemon Tea",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "5",
+        "harga_total": "25000.00"
+    },
+    {
+        "id": "6",
+        "nama_pelanggan": "edo",
+        "nomor_telepon": "085234347676",
+        "alamat_pengiriman": "bandung",
+        "jenis_esteh": "Es Teh Tawar",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "5",
+        "harga_total": "10000.00"
+    },
+    {
+        "id": "7",
+        "nama_pelanggan": "andi",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "Tanjung Karang Timur",
+        "jenis_esteh": "Es Teh Manis",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "5",
+        "harga_total": "15000.00"
+    },
+    {
+        "id": "8",
+        "nama_pelanggan": "Joko",
+        "nomor_telepon": "085234345353",
+        "alamat_pengiriman": "Bandar Lampung",
+        "jenis_esteh": "Es Teh Manis",
+        "instruksi_tambahan": "-",
+        "jumlah_pesanan": "10",
+        "harga_total": "30000.00"
+    }
+]

@@ -57,6 +57,7 @@
                 </div>
             </div>
 
+            <a href="<?= $base_url ?>/views/export_json.php" class="btn btn-secondary">Export Json</a>
             <table class="table table-striped table-bordered">
                 <?php
                     if ($result->num_rows > 0) {
