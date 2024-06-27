@@ -5,6 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     include(__DIR__ . "/../config/connection.php");
 
     // Ambil dan bersihkan data dari form
+    // real_escape_string untuk mengamankan input dari pengguna sebelum dimasukkan ke dalam database
     $nama_pelanggan = $link->real_escape_string($_POST['nama_pelanggan']);
     $nomor_telepon = $link->real_escape_string($_POST['nomor_telepon']);
     $alamat_pengiriman = $link->real_escape_string($_POST['alamat_pengiriman']);
@@ -31,13 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             'jumlah_pesanan' => $jumlah_pesanan
         );
 
-        // Ubah array menjadi string parameter URL
-        $data_url = http_build_query($data);
-
-        // Redirect ke home.php dengan menyertakan data dalam URL + pesan
+        // Redirect ke index.php dengan menyertakan data dalam URL + pesan
         $pesan = "Pesanan Anda Berhasil Dikirim.";
         $pesan = urlencode($pesan);
-        header("Location: index.php?pesan={$pesan}&{$data_url}");
+        header("Location: index.php?pesan={$pesan}");
     } else {
         die ("Query gagal dijalankan: ".mysqli_errno($link)." - ".mysqli_error($link));
     }

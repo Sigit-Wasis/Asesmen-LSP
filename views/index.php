@@ -5,7 +5,6 @@
     if (isset($_GET["pesan"])) {
         $pesan = $_GET["pesan"];
     }
-    
 ?>
 
 <!doctype html>
