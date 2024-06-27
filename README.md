@@ -1,18 +1,12 @@
-# Sistem Manajemen Paket Wisata
+# Sistem Pemesanan Es Teh
 
-Sistem Manajemen Paket Wisata adalah aplikasi web yang memungkinkan pengguna untuk mengelola paket wisata dan pemesanan paket wisata. Aplikasi ini dibangun menggunakan PHP native dan MySQL.
-
-## Akun Administrator
-| Username | Password |
-|----------|----------|
-| admin123 | rahasia  |
+Sistem Pemesanan Es Teh adalah aplikasi web yang memungkinkan pengguna untuk memesan Es Teh Sesuai Dengan Keinginan. Aplikasi ini dibangun menggunakan PHP native dan MySQL.
 
 ## Fitur
 
-- Registrasi dan login pengguna
-- Menambah, mengedit, dan menghapus paket wisata
 - Melihat daftar paket wisata
 - Melakukan pemesanan paket wisata
+- Melihat List Pesanan 
 
 ## Prasyarat
 
@@ -27,12 +21,12 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
 1. Clone repositori ini ke direktori server web Anda:
 
    ```bash
-   https://github.com/Sigit-Wasis/Digitalent-JWD.git
+   https://github.com/Sigit-Wasis/Asesmen-LSP.git
 
-2. Masuk ke repositori Digitalent-JWD
+2. Masuk ke repositori Asesmen-LSP
 
    ```bash
-   cd Digitalent-JWD
+   cd Asesmen-LSP
 
 3. Copy file .env.example menjadi .env
 
@@ -45,14 +39,14 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
    DB_HOST=localhost <br>
    DB_USER=root <br>
    DB_PASS=123456 <br>
-   DB_NAME=digitalent
+   DB_NAME=esteh
 
 5. Jalankan perintah 
 
    ```bash
    composer update
 
-6. Kemudian Buka Pada Browser dengan url : http://localhost/Digitalent-JWD
+6. Kemudian Buka Pada Browser dengan url : http://localhost/Asesmen-LSP
 
 7. Saya Asumsikan projek di clone pada folder htdocs
 
