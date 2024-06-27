@@ -156,7 +156,16 @@
                         <input type="hidden" name="harga_total" id="harga_total"> 
 
                         <hr class="my-4">
-                        <button class="w-100 btn btn-primary btn-lg" type="submit">Pesan Sekarang</button>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="w-100 btn btn-info btn-lg" onclick="calculateTotal()" type="button">Hitung Pesanan</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="w-100 btn btn-success btn-lg" type="submit">Pesan Sekarang</button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
